@@ -21,9 +21,9 @@ public class TiposEVariaveis {
 
         byte idade = 123;
         short ano = 2021;
-        int cep = 21070333; //se começar com 0, talvez string
-        long cpf = 12312312333L; //se começar com 0, talvez string (precisa encerrar com L)
-        float pi = 3.14F; //float F no final
+        int cep = 21070333; // se começar com 0, talvez string
+        long cpf = 12312312333L; // se começar com 0, talvez string (precisa encerrar com L)
+        float pi = 3.14F; // float F no final
         double salario = 1242.55;
         System.out.println(ano + " " + cpf);
 
@@ -31,11 +31,10 @@ public class TiposEVariaveis {
         int numeroNormal = numeroCurto;
         short numeroCurto2 = (short) numeroNormal;
 
-        int numero = 1; //variável, que o valor pode ser modificado posteriormente
+        int numero = 1; // variável, que o valor pode ser modificado posteriormente
 
-        final int NUMERO = 1; //Constante *final* nunca muda(por convenção, o nome sempre em caixa alta)
+        System.out.println(numeroCurto);
 
-        
-
+        final int NUMERO = 1; // Constante *final* nunca muda(por convenção, o nome sempre em caixa alta)
     }
 }
